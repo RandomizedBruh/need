@@ -7,17 +7,37 @@ import random
 # число, которое останется максимальным, если два самых
 # больших числа убрать).! Запрещается использовать sort()
 
-a = [8,5,9,2,12]
-cur = 8
-for i in range(len(a)):
-    if a <= cur:
-        cur = a
-print(cur)  
+# a = [8,5,9,2,12]
+# cur = a[0]
+# for i in range(len(a)):
+#     if a[i] > cur:
+#         cur = a[i]
+# print(cur)
+# a.remove(cur)
+# cur=a[0]
+# for i in range(len(a)):
+#     if a[i] > cur:
+#         cur = a[i]
+# print(cur)
+# a.remove(cur)
+# cur=a[0]
+# for i in range(len(a)):
+#     if a[i] > cur:
+#         cur = a[i]
+# print(cur)
 
-
-
-
-
+# nums =[1,4,7,9,3]
+# max1=nums[0]
+# max2=nums[0]
+# max3=nums[0]
+# for i in range(len(nums)):
+#     if nums[i] > max1:
+#         max3=max2
+#         max2=max1
+#         max1=nums[i]
+# print(max1)
+# print(max2)
+# print(max3)
 
 
 
@@ -98,3 +118,17 @@ print(cur)
 # выбрасывать кирпичи через это отверстие, если сторона
 # кирпича должна быть параллельна сторонам отверстия. A,
 # B, C, D, E необходимо вводить с клавиатуры.
+
+d=input("")
+e=input("")
+a=input("")
+b=input("")
+c=input("")
+if d>=a and e>=b:
+    print("prolezet")
+elif d <a and e<b:
+    print("neprolezet")
+
+
+
+
