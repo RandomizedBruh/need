@@ -26,6 +26,9 @@ import random
 #         cur = a[i]
 # print(cur)
 
+
+# two
+
 # nums =[1,4,7,9,3]
 # max1=nums[0]
 # max2=nums[0]
@@ -119,15 +122,15 @@ import random
 # кирпича должна быть параллельна сторонам отверстия. A,
 # B, C, D, E необходимо вводить с клавиатуры.
 
-d=input("")
-e=input("")
-a=input("")
-b=input("")
-c=input("")
-if d>=a and e>=b:
-    print("prolezet")
-elif d <a and e<b:
-    print("neprolezet")
+# d=input("d side:")
+# e=input("e side:")
+# a=input("a side:")
+# b=input("B size:")
+# c=input("C size:")
+# if d>=a and e>=b:
+#     print("prolezet")
+# elif d <a and e<b:
+#     print("neprolezet")
 
 
 
